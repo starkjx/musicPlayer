@@ -6,6 +6,16 @@ body{
   color: rgb(49, 194, 124);
 }
 
+.cover{
+  position: absolute;
+  content: '';
+  display: block;
+  width: 100%;
+  height: 100%;
+  background: url("https://starkjx.github.io/musicPlayer/img/IMG_0138.JPG") center center no-repeat;
+  background-size: cover;
+  filter: blur(3px);
+}
 .musicbox{
   position: absolute;
   top: 50%;
@@ -14,6 +24,9 @@ body{
   width: 260px;
   padding: 15px;
   border: 1px solid rgb(49, 194, 124);
+  background-color:  rgb(30, 32, 31);
+  opacity: 0.7;
+  
 }
 
 .music-panel .button{
@@ -58,3 +71,21 @@ body{
   margin-top: 20px;
   float: right;
 }
+
+.musicbox .list-panel{
+  /* background-color: rgb(243, 233, 233); */
+  margin-top: 20px;
+}
+
+.musicbox .list-panel li{
+  width: 100%;
+  margin-top: 10px;
+  border-top: 1px solid lightgray;
+  padding-top: 10px;
+}
+
+.musicbox .list-panel li:hover,
+.music-panel .iconfont:hover{
+  opacity: 0.5;
+}
+
