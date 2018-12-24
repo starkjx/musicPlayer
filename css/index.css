@@ -29,11 +29,29 @@ body{
 }
 
 .music-panel .info .title{
-  font-size: 24px;
+  font-size: 20px;
 }
 
 .music-panel .info .author{
   margin-top: 15px;
+}
+
+/* .musicbox .progress .timebar{
+  position: relative;
+} */
+
+.musicbox .progress .progress-total{
+  margin-top: 20px;
+  height: 3px;
+  background-color: lightgray;
+}
+
+.musicbox .progress .progress-now{
+  position: relative;
+  top:-3px;
+  width: 1%;
+  height: 3px;
+  background-color: rgb(49, 194, 124);
 }
 
 .musicbox .progress .current-time{
